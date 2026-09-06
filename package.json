@@ -1,0 +1,74 @@
+{
+  "name": "rn-collapse",
+  "version": "0.1.0",
+  "description": "Collapsible and Accordion for React Native — Reanimated 4, dynamic height, accessible",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "NOTICE",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf lib",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-native": ">=0.78.0",
+    "react-native-reanimated": ">=4.0.0",
+    "react-native-worklets": ">=0.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.1.0",
+    "react-native": "^0.81.4",
+    "react-native-reanimated": "^4.6.0",
+    "react-native-worklets": "^0.6.1",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  },
+  "keywords": [
+    "react-native",
+    "collapsible",
+    "accordion",
+    "expand",
+    "collapse",
+    "react-native-collapsible",
+    "reanimated",
+    "new-architecture",
+    "accessibility",
+    "expo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathanlight/rn-collapse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jonathanlight/rn-collapse/issues"
+  },
+  "homepage": "https://github.com/Jonathanlight/rn-collapse#readme",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
