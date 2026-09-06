@@ -1,5 +1,5 @@
 {
-  "name": "rn-collapse-example",
+  "name": "rn-collapse-next-example",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -11,7 +11,7 @@
     "react-native": "0.81.4",
     "react-native-reanimated": "^4.1.0",
     "react-native-worklets": "^0.6.0",
-    "rn-collapse": "file:.."
+    "rn-collapse-next": "file:.."
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-collapse",
-    "slug": "rn-collapse-example",
+    "name": "rn-collapse-next",
+    "slug": "rn-collapse-next-example",
     "version": "0.1.0",
     "newArchEnabled": true,
     "ios": { "supportsTablet": true },

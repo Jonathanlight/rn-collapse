@@ -1,5 +1,5 @@
 /**
- * rn-collapse — Collapsible and Accordion for React Native on Reanimated 4.
+ * rn-collapse-next — Collapsible and Accordion for React Native on Reanimated 4.
  *
  * Independent community rewrite. Not affiliated with, nor endorsed by, the
  * authors of react-native-collapsible. See NOTICE for attribution.
@@ -38,6 +38,6 @@ export type {
 import { Accordion } from './Accordion.js';
 import { Collapsible } from './Collapsible.js';
 
-/** Default export, so `import Collapsible from 'rn-collapse'` also works. */
+/** Default export, so `import Collapsible from 'rn-collapse-next'` also works. */
 export default Collapsible;
 export { Accordion as AccordionComponent };

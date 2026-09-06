@@ -1,4 +1,4 @@
-rn-collapse
+rn-collapse-next
 Copyright (c) 2026 Jonathan Kablan and contributors
 
 This project reproduces the public API — component names, prop names and
@@ -14,5 +14,5 @@ No source code is copied from that project; the implementation here is written
 against Reanimated 4 and the New Architecture. The API surface is reproduced
 deliberately, for compatibility.
 
-rn-collapse is an independent community rewrite. It is not affiliated with, nor
+rn-collapse-next is an independent community rewrite. It is not affiliated with, nor
 endorsed by, the authors of react-native-collapsible.

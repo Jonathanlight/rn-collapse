@@ -1,4 +1,4 @@
-# rn-collapse
+# rn-collapse-next
 
 **Collapsible and Accordion for React Native, on the UI thread.**
 
@@ -7,7 +7,7 @@ JavaScript on the `Animated` API, copyright 2015–2021. The reason it is still
 everywhere is that it handles **dynamic height**: you do not know how tall the
 content is, and it measures it for you.
 
-Reanimated does that better now. `rn-collapse` keeps the same API and the same
+Reanimated does that better now. `rn-collapse-next` keeps the same API and the same
 props, moves the animation to the UI thread, fixes the five cases the original
 handles badly, and makes the result accessible.
 
@@ -23,17 +23,17 @@ The original ships two entry points. Both become one named import:
 ```diff
 - import Collapsible from 'react-native-collapsible';
 - import Accordion from 'react-native-collapsible/Accordion';
-+ import { Collapsible, Accordion } from 'rn-collapse';
++ import { Collapsible, Accordion } from 'rn-collapse-next';
 ```
 
-`import Collapsible from 'rn-collapse'` also works, if you prefer the default.
+`import Collapsible from 'rn-collapse-next'` also works, if you prefer the default.
 
 Every prop on both components is supported under its original name. Nothing was
 renamed and nothing was dropped.
 
 ### What actually differs
 
-| | `react-native-collapsible` | `rn-collapse` |
+| | `react-native-collapsible` | `rn-collapse-next` |
 |---|---|---|
 | Animation thread | JS thread | UI thread |
 | Re-render per frame | yes | no |
@@ -46,7 +46,7 @@ renamed and nothing was dropped.
 ### Installation
 
 ```sh
-npm install rn-collapse react-native-reanimated react-native-worklets
+npm install rn-collapse-next react-native-reanimated react-native-worklets
 ```
 
 ---
@@ -61,7 +61,7 @@ asynchronously used to leave the container at its old height, clipping the new
 rows. Here the measuring view keeps reporting and the container simply retargets.
 
 **2. Images with no known dimensions.** Opening before the content has a height
-used to animate to zero and then jump when the image landed. `rn-collapse` holds
+used to animate to zero and then jump when the image landed. `rn-collapse-next` holds
 at the collapsed height until a real measurement exists, so there is one smooth
 open instead of a flash.
 

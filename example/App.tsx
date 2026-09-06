@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View, useColorScheme } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { Accordion, Collapsible } from 'rn-collapse';
+import { Accordion, Collapsible } from 'rn-collapse-next';
 
 interface Faq {
   id: string;
@@ -47,7 +47,7 @@ export default function App() {
     <View style={[styles.root, dark && styles.rootDark]}>
       <StatusBar style={dark ? 'light' : 'dark'} />
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={[styles.title, dark && styles.textDark]}>rn-collapse</Text>
+        <Text style={[styles.title, dark && styles.textDark]}>rn-collapse-next</Text>
         <Text style={styles.subtitle}>Dynamic height, on the UI thread.</Text>
 
         <Text style={[styles.section, dark && styles.textDark]}>FAQ accordion</Text>
