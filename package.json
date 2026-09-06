@@ -1,6 +1,6 @@
 {
   "name": "rn-collapse-next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Collapsible and Accordion for React Native — Reanimated 4, dynamic height, accessible",
   "license": "MIT",
   "type": "module",
