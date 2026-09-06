@@ -68,7 +68,6 @@
   },
   "homepage": "https://github.com/Jonathanlight/rn-collapse#readme",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
